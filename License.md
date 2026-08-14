@@ -10,6 +10,7 @@ from works that are in the public domain in the United States.
 Meditations:
 https://www.gutenberg.org/files/2680/2680-h/2680-h.htm
 (translated by J. Boulton and David Widger)  
+###### Bible:
 King James Bible (KJV): Public Domain (US)  
 Revised Version 1885 Bible (RV): Public Domain (US)  
 American Standard Version (ASV): Public Domain (US)  
@@ -27,3 +28,7 @@ Analects:
 https://www.gutenberg.org/cache/epub/46389/pg46389-images.html and
 https://www.gutenberg.org/cache/epub/3330/pg3330-images.html
 (translated by Lionel Giles and James Legge, respectively)  
+###### Kant:
+Fundamental Principles of the Metaphysics of Morals:
+https://www.gutenberg.org/cache/epub/5682/pg5682-images.html
+(translated by Thomas Kingsmill Abbott)  

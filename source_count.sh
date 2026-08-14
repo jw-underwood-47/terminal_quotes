@@ -11,7 +11,8 @@ Analects
 Marcus Aurelius
 Havamal
 Sun Tzu
-Nicomachean Ethics'
+Nicomachean Ethics
+Immanuel Kant'
 
 # empty file before I start writing to it, if it exists
 if [ -f "$SOURCE_STAT_FILE" ]; then

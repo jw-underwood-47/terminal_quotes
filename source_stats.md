@@ -3,4 +3,5 @@ Analects: 5
 Marcus Aurelius: 2  
 Havamal: 7  
 Sun Tzu: 2  
-Nicomachean Ethics: 11  
+Nicomachean Ethics: 12  
+Immanuel Kant: 3  
