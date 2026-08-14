@@ -10,7 +10,8 @@ SOURCES='(^|[^[:alnum:]_])(KJV|RV|ASV)([^[:alnum:]_]|$)
 Analects
 Marcus Aurelius
 Havamal
-Sun Tzu'
+Sun Tzu
+Nicomachean Ethics'
 
 # empty file before I start writing to it, if it exists
 if [ -f "$SOURCE_STAT_FILE" ]; then
