@@ -7,7 +7,7 @@ All quotations in `quotes.txt` are, to the best of my knowledge,
 from works that are in the public domain in the United States.
 
 ## Sources for quotes
-Meditations:
+###### Meditations:
 https://www.gutenberg.org/files/2680/2680-h/2680-h.htm
 (translated by J. Boulton and David Widger)  
 ###### Bible:
@@ -15,16 +15,16 @@ King James Bible (KJV): Public Domain (US)
 Revised Version 1885 Bible (RV): Public Domain (US)  
 American Standard Version (ASV): Public Domain (US)  
 World English Bible (WEB): Public Domain (US), https://ebible.org/eng-web/  
-The Art of War: 
+###### The Art of War: 
 https://www.gutenberg.org/files/132/132-h/132-h.htm
 (translated by Lionel Giles, 1910)  
-Havamal:
+###### Havamal:
 https://en.wikisource.org/wiki/The_Poetic_Edda_(tr._Bellows)/Hovamol
 (translated by Henry Addams Bellows, 1923)  
-Nicomachean Ethics:
+###### Nicomachean Ethics:
 https://www.gutenberg.org/files/8438/8438-h/8438-h.htm
 (translated by D.P. Chase)  
-Analects:
+###### Analects:
 https://www.gutenberg.org/cache/epub/46389/pg46389-images.html and
 https://www.gutenberg.org/cache/epub/3330/pg3330-images.html
 (translated by Lionel Giles and James Legge, respectively)  
