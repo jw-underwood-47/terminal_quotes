@@ -64,10 +64,16 @@ else
         printf "Add it to PATH? [y/N]: "
     read -r answer
 
-    case  "$answer" in y|Y)
+    case "$answer" in y|Y)
+        if [ "$USER_SHELL" = "fish" ]; then
+            # Fish syntax
+            printf 'fish_add_path "$HOME/.local/bin"\n' >> "$STARTUP_FILE"
+        else
+            # POSIX standard syntax (bash, zsh, sh)
             printf 'export PATH="$HOME/.local/bin:$PATH"\n' >> "$STARTUP_FILE"
-            printf "Added ~/.local/bin to PATH.\n"
-    ;;
+        fi
+        printf "Added ~/.local/bin to PATH.\n"
+        ;;
     esac
     fi
 
