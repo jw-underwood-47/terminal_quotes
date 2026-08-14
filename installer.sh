@@ -58,24 +58,29 @@ if grep -q "$COMMAND_LINE" "$STARTUP_FILE"; then
     printf "Quote generator command already present in startup file.\n"
 else
     # make sure they have the place where the command will be in their PATH
-    printf "Checking %s for .local/bin\n" "$STARTUP_FILE"
-    if ! grep -qF '.local/bin' "$STARTUP_FILE"; then
-        printf "Warning: ~/.local/bin is not in your PATH\n"
-        printf "Add it to PATH? [y/N]: "
-    read -r answer
-
-    case "$answer" in y|Y)
-        if [ "$USER_SHELL" = "fish" ]; then
-            # Fish syntax
-            printf 'fish_add_path "$HOME/.local/bin"\n' >> "$STARTUP_FILE"
-        else
-            # POSIX standard syntax (bash, zsh, sh)
-            printf 'export PATH="$HOME/.local/bin:$PATH"\n' >> "$STARTUP_FILE"
-        fi
-        printf "Added ~/.local/bin to PATH.\n"
-        ;;
+    printf "Checking PATH for .local/bin\n"
+    case ":$PATH:" in
+        *:"$HOME/.local/bin":*)
+            # all is well
+            ;;
+        *)
+            # prompt user to tweak PATH in startup file
+            printf "Warning: ~/.local/bin is not in your PATH\n"
+            printf "Add it to PATH? [y/N]: "
+            read -r answer
+            case "$answer" in y|Y)
+                if [ "$USER_SHELL" = "fish" ]; then
+                    # Fish syntax
+                    printf 'fish_add_path "$HOME/.local/bin"\n' >> "$STARTUP_FILE"
+                else
+                    # POSIX standard syntax (bash, zsh, sh)
+                    printf 'export PATH="$HOME/.local/bin:$PATH"\n' >> "$STARTUP_FILE"
+                fi
+                printf "Added ~/.local/bin to PATH.\n"
+                ;;
+            esac
+            ;;
     esac
-    fi
 
     printf "Appending startup command to %s...\n" "$STARTUP_FILE"
     {
