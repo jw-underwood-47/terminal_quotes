@@ -1,16 +1,19 @@
 #!/bin/sh
 
 # Check if quotes.txt is staged for this commit
-if git diff --cached --name-only | grep -q "^quotes.txt$"; then
-    echo "quotes.txt changed; regenerating indices.idx"
+if git diff --cached --name-only | grep -q -e "^quotes.txt$" -e "^source_count.sh$"; then
+    printf "quotes.txt or source_count.sh changed; regenerating indices.idx and source_stats.md\n"
 
     # Run the python script to rebuild the index
     python3 update_indices.py
 
-    # Stage the updated index file automatically
-    git add indices.idx
+    # Run the script to update source counts
+    ./source_count.sh
 
-    echo "indices.idx updated and staged"
+    # Stage the updated index files automatically
+    git add indices.idx source_stats.md
+
+    printf "indices.idx and source_stats.md updated and about to be committed\n"
 fi
 
 exit 0
