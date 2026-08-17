@@ -8,11 +8,12 @@ SOURCE_STAT_FILE="$REPO_DIR/$STAT_FILE"
 # various places I have quotes from
 SOURCES='(^|[^[:alnum:]_])(KJV|RV|ASV|WEB)([^[:alnum:]_]|$)
 Analects
-Marcus Aurelius
 Havamal
-Sun Tzu
+Immanuel Kant
+Marcus Aurelius
 Nicomachean Ethics
-Immanuel Kant'
+Quran
+Sun Tzu'
 
 # empty file before I start writing to it, if it exists
 if [ -f "$SOURCE_STAT_FILE" ]; then

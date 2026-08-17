@@ -32,3 +32,8 @@ https://www.gutenberg.org/cache/epub/3330/pg3330-images.html
 Fundamental Principles of the Metaphysics of Morals:
 https://www.gutenberg.org/cache/epub/5682/pg5682-images.html
 (translated by Thomas Kingsmill Abbott)  
+###### Quran:
+Translation by Marmaduke Pickthall (1930), accessible at
+https://www.gutenberg.org/cache/epub/16955/pg16955-images.html or
+https://archive.org/details/englishtranslationoftheholyquranbymarmadukepickthall/mode/2up
+for one that's a bit easier to read

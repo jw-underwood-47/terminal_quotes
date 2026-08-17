@@ -1,7 +1,8 @@
 Bible: 10  
 Analects: 5  
-Marcus Aurelius: 3  
 Havamal: 7  
-Sun Tzu: 2  
-Nicomachean Ethics: 12  
 Immanuel Kant: 4  
+Marcus Aurelius: 3  
+Nicomachean Ethics: 12  
+Quran: 1  
+Sun Tzu: 2  
