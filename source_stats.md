@@ -1,7 +1,7 @@
-Bible: 13  
-Analects: 7  
+Bible: 14  
+Analects: 13  
 Havamal: 7  
-Immanuel Kant: 8  
+Immanuel Kant: 9  
 Marcus Aurelius: 10  
 Nicomachean Ethics: 12  
 Quran: 2  
