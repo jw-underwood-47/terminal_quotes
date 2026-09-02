@@ -1,4 +1,4 @@
-Bible: 14  
+Bible: 18  
 Analects: 13  
 Havamal: 7  
 Immanuel Kant: 9  
