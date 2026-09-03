@@ -92,4 +92,19 @@ else
     printf "Successfully updated %s.\n" "$STARTUP_FILE"
 fi
 
+# give user option for how they want poetic quotes formatted
+printf "\n\nIf a quote is presented as verse \\ which do you prefer: \\ \
+Backslashes as shown here \\ or newlines everywhere?\n[B\\\n]: "
+read -r REPLY
+
+case "$REPLY" in
+    [Nn]*)
+        LINE_SCRIPT=output_verses_with_line_breaks.sh
+        "$REPO_DIR"/"$LINE_SCRIPT"
+        ;;
+    *)
+        printf "Leaving verse setting to default\n"
+        ;;
+esac
+
 printf "Installation complete! Make sure %s is in your \$PATH.\n" "$BIN_DIR"
