@@ -13,6 +13,7 @@ Immanuel Kant
 Marcus Aurelius
 Nicomachean Ethics
 Quran
+Socrates
 Sun Tzu'
 
 # empty file before I start writing to it, if it exists

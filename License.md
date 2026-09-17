@@ -36,4 +36,8 @@ https://www.gutenberg.org/cache/epub/5682/pg5682-images.html
 Translation by Marmaduke Pickthall (1930), accessible at
 https://www.gutenberg.org/cache/epub/16955/pg16955-images.html or
 https://archive.org/details/englishtranslationoftheholyquranbymarmadukepickthall/mode/2up
-for one that's a bit easier to read
+for one that's a bit easier to read  
+###### Socrates:
+All quotes are as quoted by Plato in _Apology_  
+Apology: https://www.gutenberg.org/files/1656/1656-h/1656-h.htm#chap02
+(translated by Benjamin Jowett)  
